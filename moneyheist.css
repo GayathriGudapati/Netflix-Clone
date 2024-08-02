@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #222;
+}
+.banner {
+    background-image: url(assets/jpeg/banner/moneyheistBanner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+.banner .banner-contents {
+    padding: 15% 7%;
+}
+.banner .banner-contents .banner-title img{
+    height: 30%;
+    width: 30%;
+}
+.banner .banner-contents .banner-title h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-top: 5%;
+} 
+.banner .banner-contents .banner-title h2 {
+    color: #a3a3a3;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-top: 1%;
+} 
+.banner .banner-contents .banner-title p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 22px;
+    max-width: 35%;
+    padding-top: 1%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+    position: fixed;
+}
+nav .logo{
+    width: 120px;
+    float: left;
+    margin: 10px 20px;
+}
+nav .profile{
+    width: 65px;
+    border-radius: 60%;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px 20px;
+}
+.right{
+    display: flex;
+    float: right;
+}
+.buttons{
+    display: flex;
+    font-size: 13px;
+    padding: 9px 12px;
+}
+.buttons .signin{
+    border: none;
+    border-radius: 3px;
+    padding: 4px ;
+    color: #fff;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.buttons .joinnow{
+    border: none;
+    border-radius: 3px;
+    padding: 4px ;
+    color: #fff;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    width: 80px;
+    height: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+iframe{
+    margin: 1% 2%;
+}
+.paragraph{
+    max-width: 100%;
+    color: #fff;
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 30px;
+}
+.contents{
+    display: flex;
+}
+.video-heading h1{
+    margin: 1% 0 0 2%;
+    color: #fff;
+}
+.video-heading h2{
+    margin: 1.2% 0 0 2%;
+    color: #a3a3a3;
+}
+footer{
+    padding: 50px 15% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+footer .col{
+    margin: 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 15px 0px;
+}
+.language{
+    border: 2px solid #666;
+    background-color: transparent;
+    color: #666;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-left: 60px ;
+    padding: 10px;
+
+}
+.country{
+    padding: 20px 60px ;
+    color: #666;
+    font-weight: 600;
+}
+.i{
+    padding: 4px;
+}
+.container{
+    display: flex;
+    background-color: #333;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 50px 70px 50px;
+    height: 80px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+.container img{
+    height: 60px;
+    width: 40px;
+    /* padding: 15px 15px;
+    align-items: center; */
+}
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 4px ;
+    color: #fff ;
+    background-color: red ;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 40px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.container h4{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: left; 
+}
